@@ -8,9 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        gupter: ['var(--font-gupter)', 'serif'],
+        rye: ['var(--font-rye)', 'cursive'],
       },
     },
   },
